@@ -2,7 +2,7 @@
 
 A bookstore REST API built with **Express 5**, **MongoDB** and **Mongoose**. It has two linked entities, Authors and Books, and the controllers enforce business rules that the database can't enforce on its own.
 
-**Demo video:** [Watch on YouTube](PASTE_YOUTUBE_LINK_HERE)
+**Demo video:** [Watch on YouTube](https://youtu.be/jkq_lDma_OU?si=hjRG-injDqMYC8BC)
 
 **API docs:** `http://localhost:3000/api-docs` (Swagger UI)
 
