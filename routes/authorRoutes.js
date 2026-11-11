@@ -13,7 +13,8 @@ router.route('/:id')
   .put(authorController.updateAuthor)
   .delete(authorController.deleteAuthor);
 
-// Linking endpoint
+// Linking endpoints
 router.get('/:id/books', bookController.getBooksByAuthor);
+router.get('/:id/stats', authorController.getAuthorStats);
 
 module.exports = router;
